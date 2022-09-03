@@ -28,7 +28,7 @@
 import React from 'react';
 //import logo from './logo.svg';
 //import './App.css';
-import  {Backpackwindow,BarLine} from './ui-components';
+import  {Backpackwindow,BarLine,Buildingthecdw, Chat,ChatbotTasks,Creatingcdwprofile} from './ui-components';
 
 function App() {
   return (
@@ -37,7 +37,10 @@ function App() {
         <h1>SCREEN</h1>
         < Backpackwindow/>
         < BarLine/>
-      
+        < Buildingthecdw />
+        < Chat/>
+        < ChatbotTasks/>
+        < Creatingcdwprofile/>
     </div>
   );
 }
