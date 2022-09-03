@@ -26,18 +26,18 @@
 
 
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import  {Backpackwindow} from './ui-components';
+//import logo from './logo.svg';
+//import './App.css';
+import  {Backpackwindow,BarLine} from './ui-components';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello from V2</h1>
+      
+        <h1>SCREEN</h1>
         < Backpackwindow/>
-      </header>
+        < BarLine/>
+      
     </div>
   );
 }
