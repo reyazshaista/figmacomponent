@@ -28,7 +28,7 @@
 import React from 'react';
 //import logo from './logo.svg';
 //import './App.css';
-import  {Backpackwindow,BarLine,Buildingthecdw, Chat,ChatbotTasks,Creatingcdwprofile} from './ui-components';
+import  {Backpackwindow,BarLine,Buildingthecdw, Chat,ChatbotTasks,Creatingcdwprofile,Goodtogo} from './ui-components';
 
 function App() {
   return (
@@ -36,17 +36,18 @@ function App() {
       
         <h1>SCREEN</h1>
         < Backpackwindow/>
-         {//<br/>
-        // < BarLine/>
-        // <br/>
-        // < Buildingthecdw />
-        // <br/>
-        // < Chat/>
-        // <br/>
-        // < ChatbotTasks/>
-        // <br/>
-        // < Creatingcdwprofile/>
-        }
+        <br/>
+        < BarLine/>
+        <br/>
+        < Buildingthecdw />
+        <br/>
+        < Chat/>
+        <br/>
+        < ChatbotTasks/>
+        <br/>
+        < Creatingcdwprofile/>
+        <br/>
+        < Goodtogo/>
     </div>
   );
 }
