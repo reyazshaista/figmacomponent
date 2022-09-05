@@ -36,16 +36,17 @@ function App() {
       
         <h1>SCREEN</h1>
         < Backpackwindow/>
-        <br/>
-        < BarLine/>
-         <br/>
-        < Buildingthecdw />
-         <br/>
-        < Chat/>
-         <br/>
-        < ChatbotTasks/>
-         <br/>
-        < Creatingcdwprofile/>
+         {//<br/>
+        // < BarLine/>
+        // <br/>
+        // < Buildingthecdw />
+        // <br/>
+        // < Chat/>
+        // <br/>
+        // < ChatbotTasks/>
+        // <br/>
+        // < Creatingcdwprofile/>
+        }
     </div>
   );
 }
