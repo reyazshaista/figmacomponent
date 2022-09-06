@@ -11,7 +11,7 @@ import { Text, View } from "@aws-amplify/ui-react";
 export default function Firstoption(props) {
   const { overrides, ...rest } = props;
   return (
-    <View
+    <View style={{backgroundColor:"red"}}
       width="801px"
       height="361px"
       position="relative"
