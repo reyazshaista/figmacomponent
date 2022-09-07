@@ -31,7 +31,12 @@ import React from 'react';
 import  
 {Backpackwindow,BarLine,Buildingthecdw, Chat,ChatbotTasks,
 Creatingcdwprofile,Fewoptions,Findfewoptions,Firstoption,Goodtogo,
-Group1120,Loadingscreen,Logoforconferenceevent,ORB} from './ui-components';
+Group1120,Loadingscreen,Logoforconferenceevent,ORB,Order50,
+Rectangle1557, Rectangle1558,ReviewTechSystemOrder, Simplewindow,
+Singlebackpack, SupplierCallout, Suppliers, TabletNav, Tasks, Vendorcreationform,
+VendorListBox, VendorReferal
+  
+} from './ui-components';
 
 function App() {
   return (
@@ -66,6 +71,34 @@ function App() {
         < br />
         < ORB />
         < br />
+        < Order50 />
+        < br />
+        < Rectangle1557 />
+        < br />
+        < Rectangle1558 />
+        < br />
+        < ReviewTechSystemOrder />
+        < br />
+        < Simplewindow />
+        < br />
+        < Singlebackpack />
+        < br />
+        < SupplierCallout />
+        < br  />
+        < Suppliers />
+        < br />
+        < TabletNav />
+        < br />
+        < Tasks />
+        < br />
+        < Vendorcreationform />
+        < br />
+        < VendorListBox />
+        < br />
+        < VendorReferal />
+        
+        
+        
         
     </div>
   );
