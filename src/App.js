@@ -28,7 +28,10 @@
 import React from 'react';
 //import logo from './logo.svg';
 //import './App.css';
-import  {Backpackwindow,BarLine,Buildingthecdw, Chat,ChatbotTasks,Creatingcdwprofile,Goodtogo,Loadingscreen,Logoforconferenceevent,Firstoption} from './ui-components';
+import  
+{Backpackwindow,BarLine,Buildingthecdw, Chat,ChatbotTasks,
+Creatingcdwprofile,Fewoptions,Findfewoptions,Firstoption,Goodtogo,
+Group1120,Loadingscreen,Logoforconferenceevent,ORB} from './ui-components';
 
 function App() {
   return (
@@ -36,24 +39,34 @@ function App() {
       
         <h1>SCREEN</h1>
         < Backpackwindow/>
-        <br/>
+        < br/>
         < BarLine/>
-        <br/>
+        < br/>
         < Buildingthecdw />
-        <br/>
+        < br/>
         < Chat/>
-        <br/>
+        < br/>
         < ChatbotTasks/>
-        <br/>
+        < br/>
         < Creatingcdwprofile/>
-        <br/>
+        < br/>
         < Goodtogo/>
-        <br/>
+        < br/>
         < Loadingscreen/>
-        <br/>
+        < br/>
         < Logoforconferenceevent /> 
-        <br />
+        < br />
         < Firstoption />
+        < br/>
+        < Fewoptions />
+        < br/>
+        < Findfewoptions />
+        < br />
+        < Group1120 />
+        < br />
+        < ORB />
+        < br />
+        
     </div>
   );
 }
