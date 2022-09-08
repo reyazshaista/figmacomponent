@@ -14,6 +14,7 @@ export { default as BarLine } from "./BarLine";
 export { default as Loadingscreen } from "./Loadingscreen";
 export { default as ChatbotTasks } from "./ChatbotTasks";
 export { default as VendorReferal } from "./VendorReferal";
+export { default as Testingscreen } from "./Testingscreen";
 export { default as Chat } from "./Chat";
 export { default as Backpackwindow } from "./Backpackwindow";
 export { default as Order50 } from "./Order50";

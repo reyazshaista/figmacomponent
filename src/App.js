@@ -34,7 +34,7 @@ Creatingcdwprofile,Fewoptions,Findfewoptions,Firstoption,Goodtogo,
 Group1120,Loadingscreen,Logoforconferenceevent,ORB,Order50,
 Rectangle1557, Rectangle1558,ReviewTechSystemOrder, Simplewindow,
 Singlebackpack, SupplierCallout, Suppliers, TabletNav, Tasks, Vendorcreationform,
-VendorListBox, VendorReferal
+VendorListBox, VendorReferal, Testingscreen
   
 } from './ui-components';
 
@@ -122,6 +122,9 @@ function App() {
         < br />
         <h1>VendorReferal</h1>
         < VendorReferal />
+        < br />
+        <h1>Testingscreen</h1>
+        < Testingscreen />
         
         
         
