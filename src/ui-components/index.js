@@ -18,6 +18,7 @@ export { default as Testingscreen } from "./Testingscreen";
 export { default as Chat } from "./Chat";
 export { default as Backpackwindow } from "./Backpackwindow";
 export { default as Order50 } from "./Order50";
+export { default as Component1 } from "./Component1";
 export { default as Tasks } from "./Tasks";
 export { default as Singlebackpack } from "./Singlebackpack";
 export { default as ReviewTechSystemOrder } from "./ReviewTechSystemOrder";

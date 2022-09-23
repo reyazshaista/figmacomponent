@@ -34,7 +34,7 @@ Creatingcdwprofile,Fewoptions,Findfewoptions,Firstoption,Goodtogo,
 Group1120,Loadingscreen,Logoforconferenceevent,ORB,Order50,
 Rectangle1557, Rectangle1558,ReviewTechSystemOrder, Simplewindow,
 Singlebackpack, SupplierCallout, Suppliers, TabletNav, Tasks, Vendorcreationform,
-VendorListBox, VendorReferal, Testingscreen
+VendorListBox, VendorReferal, Testingscreen,  Component1
   
 } from './ui-components';
 
@@ -126,6 +126,10 @@ function App() {
         <h1>Testingscreen</h1>
         < Testingscreen />
         <p>Shaista Reyaz</p>
+        
+        <h1>Graph Bar</h1>
+        < Component1 />
+        
         
         
         
